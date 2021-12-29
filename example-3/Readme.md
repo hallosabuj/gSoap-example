@@ -2,7 +2,7 @@
 1. Write a student.h file and add a function prototype.  
 2. Run the following command:  
     soapcpp2 -c++ -r -SL hello.h     
-3. Implement service function in helloserver.cpp.  
+3. Implement service function in studentserver.cpp.  
 4. Build codes using following command:  
     c++ -o student studentserver.cpp soapC.cpp soapServer.cpp -l gsoap++  
 5. To run the server use following command:  
